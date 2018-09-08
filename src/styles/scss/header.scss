@@ -1,0 +1,24 @@
+.header {
+  margin-top: 150px;
+  padding-top: 50px;
+  text-align: center;
+  min-height: 100vh;
+  background-position: center top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+  &__title {
+    margin: 0;
+    font-size: 48px;
+  }
+
+  &__subtitle {
+    color: $secondary;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  &__btn {
+    margin-top: 84px;
+  }
+}

@@ -1,0 +1,38 @@
+.logo {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    .logo__circle {
+      box-shadow: $shadow-hover;
+    }
+  }
+
+  &__main {
+    text-transform: uppercase;
+    color: #43a9ff;
+    display: block;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: .8;
+  }
+
+  &__secondary {
+    font-weight: 700;
+    font-size: 18px;
+    color: $secondary;
+    text-transform: uppercase;
+    line-height: 1.8;
+  }
+
+  &__circle {
+    position: absolute;
+    top: -200px;
+    left: calc(50% - 200px);
+    box-shadow: $shadow;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+  }
+}

@@ -1,0 +1,30 @@
+.screens {
+
+  &__item {
+    padding: 162px 0 119px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    &:last-of-type {
+      padding: 0 0 162px 0;
+      .text,
+      .title {
+        display: inline-block;
+        margin-left: auto;
+      }
+    }
+  }
+
+  &__app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,32 @@
+.response {
+  background-color: #f7f8fb;
+
+  &__image {
+    background-repeat: no-repeat;
+    background-position: center top 67px;
+    //background-size: contain;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  &__content {
+    padding: 213px 50px 117px 50px;
+  }
+
+  &__capture {
+    margin: 70px 0 0 0;
+    font-size: 16px;
+    line-height: 36px;
+    color: $secondary;
+    font-weight: 500;
+
+    strong {
+      color: #000000;
+      font-weight: 700;
+    }
+  }
+}

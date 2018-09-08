@@ -1,0 +1,33 @@
+@import 'variables';
+
+@import 'hamburgers/hamburgers.scss';
+
+@import 'boxes';
+@import 'button';
+@import 'container';
+@import 'footer';
+@import 'header';
+@import 'laptop-only';
+@import 'loader';
+@import 'logo';
+@import 'menu';
+@import 'navbar';
+@import 'offer';
+@import 'response';
+@import 'screens';
+@import 'search';
+@import 'typography';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+button {
+  outline: none;
+}

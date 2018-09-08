@@ -1,0 +1,27 @@
+.subtitle {
+  color: $secondary;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 48px;
+  margin: 0;
+  font-weight: 600;
+
+  &.blue {
+    color: #43a9ff;
+  }
+
+  &.red {
+    color: #fe3254;
+  }
+}
+
+.text {
+  margin-top: 40px;
+  color: $secondary;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 500;
+}

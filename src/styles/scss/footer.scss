@@ -1,0 +1,17 @@
+.footer {
+  position: relative;
+  text-align: center;
+  min-height: 150vh;
+  padding: 134px 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: bottom center;
+
+  @media screen and (min-width: 2000px) {
+    background-position: bottom -300px center;
+  }
+
+  &__btn {
+    margin-top: 92px;
+  }
+}

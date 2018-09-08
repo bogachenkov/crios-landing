@@ -1,0 +1,28 @@
+.offer {
+  padding-top: 50px;
+  padding-bottom: 125px;
+  text-align: center;
+
+  &__grid {
+    margin: 100px 0 95px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 30px;
+  }
+
+  &__item {
+    &-title {
+      line-height: 1;
+      margin: 37px auto;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    &-text {
+      margin: 0 50px;
+      color: $secondary;
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+}
